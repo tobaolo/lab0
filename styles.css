@@ -4,9 +4,10 @@ html, body {
     padding: 0px;
 }
 
-#headshot{
+.content{
     width: 80%;
     float: right;
+    align-content: center;
 }
 
 img {
@@ -37,4 +38,26 @@ ul {
   li a:hover {
     background-color: #555;
     color: white;
+  }
+
+  table {
+      float: center;
+      margin-left: 25%;
+      margin-top: 20px;
+  }
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  p {
+      padding: 5px;
+  }
+
+.topic > p {
+      text-align: center;
   }
