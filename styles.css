@@ -4,7 +4,7 @@ html, body {
     padding: 0px;
 }
 
-#div1{
+#headshot{
     width: 80%;
     float: right;
 }
@@ -23,7 +23,9 @@ ul {
     margin: 0;
     padding: 0;
     width: 20%;
-    background-color: #f1f1f1;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #dfcda4;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -31,8 +33,11 @@ ul {
   li a {
     display: block;
     color: #000;
+    margin-top: 10px;
     padding: 8px 8px;
     text-decoration: none;
+    
+    
   }
   
   /* Change the link color on hover */
@@ -40,11 +45,6 @@ ul {
     background-color: #555;
     color: white;
   }
-#headshot {
-
-    object-fit: contain;
-    padding-left: 200px;
-}
 
 .block{
     text-align: center;
@@ -52,15 +52,8 @@ ul {
     background-color: white;
 }
 
-#aboutdiv{
-    
-}
-
-#dancediv{
-    
-}
 
 #title {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: Tahoma, Geneva, sans-serif;
     text-align: center;
 }
