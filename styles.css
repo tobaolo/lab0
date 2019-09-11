@@ -26,6 +26,8 @@ ul {
   height: 100%; 
   position: fixed; 
   overflow: auto; 
+  animation-name: loadheader;
+  animation-duration: 2s;
 }
 li a {
   display: block;
@@ -47,6 +49,10 @@ table {
     
 }
 
+h1 {
+  text-align: center;
+  width: 100%;
+}
 
 h2 {
     text-align: center;
@@ -61,7 +67,7 @@ p {
 }
 
 video {
-  width: 75%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
